@@ -25,7 +25,7 @@ Two practicals in one notebook, designed to be worked through in order:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Adaptive-Intelligence-Lab/BMVA-summer-school/blob/main/BMVA_CVSS_Advanced.ipynb)
 
-What if you barely have any labels — but you do have a big, accurate model? **Knowledge distillation** lets a large "teacher" network teach a tiny "student": on CIFAR-10, the same 24k-parameter student (44× smaller than its teacher) gains **~15–20 accuracy points** when the only change is learning from the teacher's soft predictions — and reaches ~78% having seen *zero* ground-truth labels. You will implement the distillation loss and training loop yourself, and *see* why it works through dark-knowledge, t-SNE, confusion-matrix, and attention visualisations.
+What if you barely have any labels — but you do have a big, accurate model? **Knowledge distillation** lets a large "teacher" network teach a tiny "student": on CIFAR-10, the same 24k-parameter student (44× smaller than its teacher) gains **≈15–20 accuracy points** when the only change is learning from the teacher's soft predictions — and reaches ≈78% having seen *zero* ground-truth labels. You will implement the distillation loss and training loop yourself, and *see* why it works through dark-knowledge, t-SNE, confusion-matrix, and attention visualisations.
 
 **You will learn:** teacher–student training · soft targets, temperature, and "dark knowledge" · the KD loss (and its classic pitfalls) · label-scarce training · hard pseudo-labels vs soft distillation · Decoupled KD (optional extension)
 
